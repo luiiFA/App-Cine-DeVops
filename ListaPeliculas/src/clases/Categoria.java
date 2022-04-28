@@ -7,11 +7,12 @@ package clases;
 
 /**
  *
- * @author Luis
+ * @author George Gutierrez
  */
 public class Categoria {
 
     // paso: 2 declarar los atributos
+	private String nombre;
     private int idCategoria;
      private String nombreCat;
 
