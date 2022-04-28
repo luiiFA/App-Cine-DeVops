@@ -20,8 +20,9 @@ public class Pelicula {
     private int anio;
     private String pais;
     private LocalDate fechaEstreno;
+    private String NombreAutor;
 
-    public Pelicula(int idPelicula, String titulo, int duracion, int idCategoria, String protagonista, int anio, String pais,LocalDate fechaEstreno) {
+    public Pelicula(int idPelicula, String titulo, int duracion, int idCategoria, String protagonista, int anio, String pais,LocalDate fechaEstreno,String NombreAutor) {
         this.idPelicula = idPelicula;
         this.titulo = titulo;
         this.duracion = duracion;
@@ -30,6 +31,7 @@ public class Pelicula {
         this.anio = anio;
         this.pais = pais;
         this.fechaEstreno=fechaEstreno;
+   
     }
     public Pelicula() {
         this.idPelicula = 0;
