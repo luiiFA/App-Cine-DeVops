@@ -10,7 +10,7 @@ import clases.Pelicula;
 
 /**
  *
- * @author Luis
+ * @author Luis Arista
  */
 public class GestionPelicula {
 
