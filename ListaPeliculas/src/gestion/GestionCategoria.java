@@ -9,7 +9,7 @@ import clases.Categoria;
 
 /**
  *
- * @author Luis
+ * @author Kristel
  */
 public class GestionCategoria {
 
